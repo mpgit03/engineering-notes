@@ -1,0 +1,15 @@
+
+{
+  "name": "bullmq-retries-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Experiments with BullMQ retries and idempotency",
+  "scripts": {
+    "worker": "node worker.js",
+    "enqueue": "node enqueue.js"
+  },
+  "dependencies": {
+    "bullmq": "^5.0.0",
+    "ioredis": "^5.4.0"
+  }
+}
